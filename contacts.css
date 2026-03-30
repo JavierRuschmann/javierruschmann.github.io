@@ -1,0 +1,61 @@
+.title {
+    font-size: clamp(1rem, 10.5vw, 3.125rem);
+    text-align: center;
+    font-weight: 300;
+}
+
+.subtitle {
+    font-size: clamp(0.5rem, 8vw, 1.8rem);
+    text-align: center;
+    font-weight: 300;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    width: clamp(3rem, 25vw, 7rem);
+
+    font-size: 1rem;
+}
+
+.github {
+    border-color: black;
+    color: black;
+}
+
+.github:hover {
+    background-color: black;
+    color: white;
+}
+
+.linkedin {
+    border-color: #00669a;
+    color: #00669a;
+}
+
+.linkedin:hover {
+    background-color: #00669a;
+    color: white;
+}
+
+.email {
+    border-color: #ed0000;
+    color: #ed0000;
+}
+
+.email:hover {
+    background-color: #ed0000;
+    color: white;
+}

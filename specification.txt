@@ -1,0 +1,22 @@
+HTML tags:
+main
+footer
+link
+nav
+div
+a
+button
+ul
+li
+br
+
+CSS tags:
+border-radius
+box-shadow
+padding
+margin
+font-size
+font-weight
+
+I used Bootstrap to create the NavBar of the site. It helped a lot to make it responsive and beautiful. Bootstrap also helped with the "btn" class adding transitions out of the box.
+I used JavaScript to greet the user acording to his local time. So if it were 10AM I would say "Good Morning".

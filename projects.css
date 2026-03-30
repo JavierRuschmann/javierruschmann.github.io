@@ -1,0 +1,82 @@
+.title {
+    font-size: clamp(1rem, 10.5vw, 3.125rem);
+    text-align: center;
+    font-weight: 300;
+}
+
+.subtitle {
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 500;
+
+    margin-left: 10%;
+    margin-bottom: 0.5rem;
+}
+
+.project-container {
+    display: flex;
+
+    width: 80%;
+    max-width: 37.5rem;
+    margin: 1rem auto;
+    margin-left: 10%;
+
+    background-color: white;
+
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #BABABA;
+    border-radius: .75rem;
+    box-shadow: 0.2rem 0.2rem 0.4rem 0rem #787878;
+
+    padding: 0.5rem 1rem;
+}
+
+.project-title {
+    font-size: 1.2rem;
+
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0rem;
+}
+
+.project-subtitle {
+    font-size: 0.9rem;
+    font-weight: 350;
+
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    width: 7.5rem;
+
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+
+    font-size: 1rem;
+
+    background-color: #c19efb;
+    color: black;
+
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: black;
+    border-radius: 0.75rem;
+    box-shadow: 0.188rem 0.125rem 0rem 0.063rem black;
+}
+
+.btn:hover {
+    border-color: black;
+    background-color: #f8fafb;
+    color: #3D00B5;
+    box-shadow: 0.188rem 0.125rem 0rem 0.063rem black, 0.375rem 0.25rem 0rem 0.125rem rebeccapurple, 0.563rem 0.375rem 0rem 0.188rem yellow;
+}
